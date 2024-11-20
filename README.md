@@ -3,8 +3,8 @@
 BaiduYun
 ## Installation
 [MMRotate](https://github.com/open-mmlab/mmrotate) depends on [PyTorch](https://pytorch.org/), [MMCV](https://github.com/open-mmlab/mmcv) and [MMDetection](https://github.com/open-mmlab/mmdetection). Please refer to [Install Guide](https://mmrotate.readthedocs.io/en/latest/install.html) for more detailed instruction. Below are quick steps for installation.
-'
-conda create --name openmmlab python=3.8 -y
+
+'conda create --name openmmlab python=3.8 -y'
 conda activate openmmlab
 conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
 pip install -U openmim
