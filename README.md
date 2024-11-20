@@ -16,9 +16,9 @@ cd Large-Selective-Kernel-Network
 pip install -v -e .
 git clone https://github.com/yuhongtian17/Spatial-Transform-Decoupling.git
 cp -r Spatial-Transform-Decoupling/mmrotate-main/* mmrotate/
+```
 
 ## Acknowladgement
-
 Please also support the representation learning work on which this work is based:
 
 LSKNet：[LSKNet: A Foundation Lightweight Backbone for Remote Sensing](https://doi.org/10.1007/s11263-024-02247-9)
