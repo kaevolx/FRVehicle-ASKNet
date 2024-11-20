@@ -4,7 +4,8 @@ BaiduYun
 ## Installation
 [MMRotate](https://github.com/open-mmlab/mmrotate) depends on [PyTorch](https://pytorch.org/), [MMCV](https://github.com/open-mmlab/mmcv) and [MMDetection](https://github.com/open-mmlab/mmdetection). Please refer to [Install Guide](https://mmrotate.readthedocs.io/en/latest/install.html) for more detailed instruction. Below are quick steps for installation.
 
-'conda create --name openmmlab python=3.8 -y'
+```python
+conda create --name openmmlab python=3.8 -y
 conda activate openmmlab
 conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
 pip install -U openmim
@@ -15,7 +16,7 @@ cd Large-Selective-Kernel-Network
 pip install -v -e .
 git clone https://github.com/yuhongtian17/Spatial-Transform-Decoupling.git
 cp -r Spatial-Transform-Decoupling/mmrotate-main/* mmrotate/
-'
+
 ## Acknowladgement
 
 Please also support the representation learning work on which this work is based:
