@@ -35,7 +35,6 @@ class Mlp(nn.Module):
 class ASKblock(nn.Module):
     def __init__(self, dim):
         super().__init__()
-        # 修改conv0的kernel_size为(3,5)
         self.conv0 = nn.Conv2d(dim, dim, kernel_size=(3,5), padding=(1,2), groups=dim)
 
         self.conv_spatial = nn.Conv2d(
@@ -121,12 +120,12 @@ class Block(nn.Module):
 class OverlapPatchEmbed(nn.Module):
     def __init__(self, img_size=224, patch_size=7, stride=4, in_chans=3, embed_dim=768, norm_cfg=None):
         super().__init__()
-        # 第一层patch_embed的kernel_size修改为(3,5)
+
         if patch_size == 7:
             kernel_size = (3,5)
             padding = (1,2)
         else:
-            # 其他层patch_embed的kernel_size保持3x3不变
+
             kernel_size = 3
             padding = 1
             
@@ -176,7 +175,7 @@ class ASKNet(BaseModule):
         for i in range(num_stages):
             patch_embed = OverlapPatchEmbed(
                 img_size=img_size if i == 0 else img_size // (2 ** (i + 1)),
-                patch_size=7 if i == 0 else 3,  # 第一层使用3x5,其他层使用3x3
+                patch_size=7 if i == 0 else 3,
                 stride=4 if i == 0 else 2,
                 in_chans=in_chans if i == 0 else embed_dims[i - 1],
                 embed_dim=embed_dims[i],
