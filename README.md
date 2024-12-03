@@ -13,10 +13,12 @@ pip install -U openmim
 mim install mmcv-full
 mim install mmdet
 git clone https://github.com/zcablii/Large-Selective-Kernel-Network.git
+git clone https://github.com/kaevolx/FRVehicle-ASKNet.git
+cd FRVehicle-ASKNet
+cp -r /asknet/ /Large-Selective-Kernel-Network/lsknet/configs
+cp -r /mmrotate/ /Large-Selective-Kernel-Network/lsknet/
 cd Large-Selective-Kernel-Network
 pip install -v -e .
-git clone https://github.com/yuhongtian17/Spatial-Transform-Decoupling.git
-cp -r Spatial-Transform-Decoupling/mmrotate-main/* mmrotate/
 ```
 
 ## Acknowladgement
