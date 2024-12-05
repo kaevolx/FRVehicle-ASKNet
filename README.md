@@ -1,7 +1,10 @@
-# FRVehicle-ASKNet
+# FRVehicle
 ## FRVehicle dataset
 [BaiduYun](https://pan.baidu.com/s/1KBf6baQoI_1zSOzNkEcEJQ)
 code:g7wn
+# ASKNet
+![main](https://github.com/user-attachments/assets/018d7819-ad64-45e6-8851-ce2b1cba65c5)
+
 ## Installation
 [MMRotate](https://github.com/open-mmlab/mmrotate) depends on [PyTorch](https://pytorch.org/), [MMCV](https://github.com/open-mmlab/mmcv) and [MMDetection](https://github.com/open-mmlab/mmdetection). Please refer to [Install Guide](https://mmrotate.readthedocs.io/en/latest/install.html) for more detailed instruction. Below are quick steps for installation.
 
