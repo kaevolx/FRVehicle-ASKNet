@@ -23,6 +23,21 @@ cp -r /mmrotate/ /Large-Selective-Kernel-Network/lsknet/
 cd Large-Selective-Kernel-Network
 pip install -v -e .
 ```
+## BibTeX
+```python
+@Article{rs17030407,
+AUTHOR = {Wang, Zhenyu and Xiong, Lu and Yu, Zhuoping},
+TITLE = {An Asymmetric Selective Kernel Network for Drone-Based Vehicle Detection to Build a High-Accuracy Vehicle Trajectory Dataset},
+JOURNAL = {Remote Sensing},
+VOLUME = {17},
+YEAR = {2025},
+NUMBER = {3},
+ARTICLE-NUMBER = {407},
+URL = {https://www.mdpi.com/2072-4292/17/3/407},
+ISSN = {2072-4292},
+DOI = {10.3390/rs17030407}
+}
+```
 
 ## Acknowladgement
 Please also support the representation learning work on which this work is based:
